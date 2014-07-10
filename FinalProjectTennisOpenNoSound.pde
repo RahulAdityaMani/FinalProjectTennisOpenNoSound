@@ -16,7 +16,6 @@ void setup()
   RACQUET = loadImage("racquet.png");
   RACQUET2 = loadImage("racquet2.png");
   COURT = loadImage("court.png");
-  minim = new Minim(this);
   play = new Ball(color(73, 232, 111), 500, 300, XSPEED, YSPEED);
   frameRate(1000);
 }  
